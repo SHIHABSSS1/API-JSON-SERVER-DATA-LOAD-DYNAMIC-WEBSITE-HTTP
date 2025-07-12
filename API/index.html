@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <h1>JSON</h1>
+    <h2>javascript object notation</h2>
+
+    <!-- script tag -->
+    <script>
+        const user = {id: 30, name : "Shihab"}
+        const userJSON = JSON.stringify(user);
+        console.log(userJSON);
+        const userObj = JSON.parse(userJSON);
+        console.log(userObj);
+
+    </script>
+</body>
+</html>
